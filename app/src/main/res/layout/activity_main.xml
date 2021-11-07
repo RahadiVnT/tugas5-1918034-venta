@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_time_picker"
+        android:layout_marginTop="200dp"
+        android:text="Waktu Alarm .. : .. PM"
+        android:textAlignment="center"
+        android:textColor="@color/Biru"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/button_time_picker"
+        android:layout_marginHorizontal="26dp"
+        android:backgroundTint="@color/Orange"
+        android:text="Pilih Waktu"
+        android:textSize="26dp"
+        app:cornerRadius="40dp" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:backgroundTint="@color/Orange"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/button_time_picker"
+        android:layout_marginHorizontal="26dp"
+        android:text="Batalkan Alarm"
+        android:textSize="26dp"
+        app:cornerRadius="40dp" />
+
+
+
+
+</LinearLayout>
